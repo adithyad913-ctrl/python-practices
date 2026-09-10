@@ -1,0 +1,44 @@
+def print(message,end="\n"):
+
+def exponent(number,power=1):
+    print(number**power)
+exponent(2,3)
+
+exponent(4,2)
+exponent(5,power=2)
+
+def greetings(user="guest"):
+    print("HELLO",user)
+greetings()
+greetings(user="vipin")
+
+def calculate_bill(item_price,quantity=1):
+    print(item_price*quantity)
+calculate_bill(90,2)
+calculate_bill(72)
+
+def division(num1,num2): 
+    print(num1/num2)
+division(10,2)#5.0
+division(5)#
+
+
+
+
+print("fruits...")
+print("APPLE",end="|")
+print("MANGO",end="|")
+print("ORANGE",end="|")
+print("vegitables...")
+
+print("onion",end="-")
+print("pottato",end="-")
+print("tomato",end="-")
+
+""" 
+o/p
+fruits
+apple|orange|mango
+vegitables..
+onian-pottato-tomatto
+"""

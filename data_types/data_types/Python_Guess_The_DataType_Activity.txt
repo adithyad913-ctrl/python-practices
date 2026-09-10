@@ -1,0 +1,59 @@
+Python Data Types - Guess the Type Activity # type: ignore
+
+Instructions:
+Identify whether each value is: # type: ignore
+#- str (String)
+#-int (integer)
+#- float (Decimal Number)
+#- bool (Boolean)
+
+#ROUND 1 (Easy)
+
+100
+"Python"
+25.5
+True
+False
+"Hello World"
+500
+99.99
+"100"
+0
+
+#ROUND 2 (Tricky)
+
+#"True" =>
+#"False" =>
+#0.0 =>
+#-100 =>
+#-25.5 =>
+#"25.5"
+#"0"
+1
+False
+"Python Django"
+
+#ROUND 3 (Variable Based)
+
+name = "Rahul"
+#Datatype = ?
+
+age = 21
+#Datatype = ?
+
+salary = 25000.50
+#Datatype = ?
+
+is_active = True
+#Datatype = ?
+
+mobile = "9876543210"
+#Datatype = ?
+
+#CHALLENGE ROUND
+
+print(type(100))
+print(type("100"))
+print(type(100.0))
+print(type(True))
+print(type("True"))

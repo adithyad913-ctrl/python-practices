@@ -1,0 +1,6 @@
+secenario : largest of two numbers
+step1:input two numbers num1,num2
+step2:check num1 is greater then num2 then display num1 is largest
+step2:check num2 is greater then num1 then display num2 is largest
+scenario
+check last_digit of a number greater than 5
